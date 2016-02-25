@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:customs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.loften.samples.DivViewTest.Main2Activity">
+
+    <com.loften.samples.DivViewTest.MyTextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="my test"
+        android:textSize="13sp"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.MyRadioButton
+        android:id="@+id/myRadioButton"
+        android:layout_below="@id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        customs:value="true"
+        android:text="my test"
+        android:textSize="13sp"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.MyLinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        customs:Text="my test"
+        customs:Oriental="Vertical"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.MyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        customs:textColor="#abcdefef"
+        customs:textSize="100px"/>
+
+</RelativeLayout>
