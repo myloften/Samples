@@ -4,10 +4,6 @@
     xmlns:customs="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.loften.samples.DivViewTest.Main2Activity">
 
     <com.loften.samples.DivViewTest.MyTextView
@@ -40,9 +36,70 @@
         android:visibility="gone"/>
 
     <com.loften.samples.DivViewTest.MyView
+        android:id="@+id/myView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         customs:textColor="#abcdefef"
-        customs:textSize="100px"/>
+        customs:textSize="100px"
+        android:visibility="gone"/>
 
+    <com.loften.samples.DivViewTest.MyView1
+        android:id="@+id/myView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.MyView2
+        android:id="@+id/myView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.EraserView
+        android:id="@+id/eraserView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.FontView
+        android:id="@+id/fontView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.PathEffectView
+        android:id="@+id/pathEffectView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.ECGView
+        android:id="@+id/ecgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.ShaderView
+        android:id="@+id/shaderView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.BrickView
+        android:id="@+id/brickView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.ReflectView
+        android:id="@+id/reflectView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.DreamEffectView
+        android:id="@+id/dreamEffectView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
 </RelativeLayout>

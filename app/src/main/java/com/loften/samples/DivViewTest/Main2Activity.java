@@ -19,5 +19,12 @@ public class Main2Activity extends AppCompatActivity {
     private void initViews(){
         MyTextView mtv = (MyTextView)findViewById(R.id.myTextView);
         Log.i("MyTextView", "top:" + mtv.getTop() + " left:" + mtv.getLeft() + " bottom:" + mtv.getBottom() + " right:" + mtv.getRight());
+
+//        //自定义view
+//        MyView myView = (MyView)findViewById(R.id.myView);
+//        //开线程
+//        new Thread(myView).start();
+
+
     }
 }

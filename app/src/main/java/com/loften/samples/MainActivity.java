@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.loften.samples.DivViewTest.Main2Activity;
 import com.loften.samples.RecyclerViewTest.RecyclerViewActivity;
+import com.loften.samples.RetrofitTest.RetrofitActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
     //自定义view
     public void divViewTest(View v){
         startActivity(new Intent(this, Main2Activity.class));
+    }
+
+    //Retrofit使用
+    public void myRetrofitTest(View v){
+        startActivity(new Intent(this, RetrofitActivity.class));
     }
 }

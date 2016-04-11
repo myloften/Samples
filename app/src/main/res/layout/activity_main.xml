@@ -29,4 +29,14 @@
         android:textAllCaps="false"
         android:visibility="visible"/>
 
+    <Button
+        android:id="@+id/myRetrofit"
+        android:layout_below="@id/myDivView"
+        android:onClick="myRetrofitTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrofit"
+        android:textAllCaps="false"
+        android:visibility="visible"/>
+
 </RelativeLayout>

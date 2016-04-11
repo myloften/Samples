@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.loften.samples">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RecyclerViewTest.RecyclerViewActivity" />
-        <activity android:name=".DivViewTest.Main2Activity"></activity>
+        <activity android:name=".DivViewTest.Main2Activity" />
+        <activity android:name=".RetrofitTest.RetrofitActivity"></activity>
     </application>
 
 </manifest>
