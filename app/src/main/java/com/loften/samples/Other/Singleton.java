@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * Created by loften on 16/3/28.
- * 主要用来整理代码块
+ * 主要用来测试代码块
  * 单例模式
  */
 public class Singleton {

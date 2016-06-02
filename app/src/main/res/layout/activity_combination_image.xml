@@ -7,11 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.loften.samples.RecyclerViewTest.RecyclerViewActivity">
+    tools:context="com.loften.samples.CombinationImageView.CombinationImageActivity">
 
-    <com.jcodecraeer.xrecyclerview.XRecyclerView
-        android:id="@+id/myrecyclerview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
+    <com.loften.samples.CombinationImageView.CombinationImageView
+        android:id="@+id/civ"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
 </RelativeLayout>

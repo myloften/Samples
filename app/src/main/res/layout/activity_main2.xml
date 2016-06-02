@@ -101,5 +101,17 @@
         android:id="@+id/dreamEffectView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.MyArc
+        android:id="@+id/apiUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.loften.samples.DivViewTest.CanvasUser
+        android:id="@+id/canvasUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:visibility="visible"/>
 </RelativeLayout>

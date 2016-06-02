@@ -3,8 +3,11 @@
     package="com.loften.samples">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,7 +22,11 @@
         </activity>
         <activity android:name=".RecyclerViewTest.RecyclerViewActivity" />
         <activity android:name=".DivViewTest.Main2Activity" />
-        <activity android:name=".RetrofitTest.RetrofitActivity"></activity>
+        <activity android:name=".RetrofitTest.RetrofitActivity" />
+        <activity android:name=".Component.CanvasActivity" />
+        <activity android:name=".CombinationImageView.CombinationImageActivity" />
+        <activity android:name=".VerificationCode.VerificationActivity" />
+        <activity android:name=".Callback.CallbackActivity"></activity>
     </application>
 
 </manifest>

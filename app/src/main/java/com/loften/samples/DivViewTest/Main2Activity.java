@@ -6,6 +6,8 @@ import android.util.Log;
 
 import com.loften.samples.R;
 
+import java.util.ArrayList;
+
 public class Main2Activity extends AppCompatActivity {
 
     @Override
@@ -25,6 +27,21 @@ public class Main2Activity extends AppCompatActivity {
 //        //开线程
 //        new Thread(myView).start();
 
+        MyArc au = (MyArc)findViewById(R.id.apiUser);
+        PieData pd = new PieData("num1",30);
+        PieData pd2 = new PieData("num2",40);
+        PieData pd3 = new PieData("num2",60);
+        PieData pd4 = new PieData("num2",80);
+        PieData pd5 = new PieData("num2",10);
+        PieData pd6 = new PieData("num2",40);
+        ArrayList<PieData> al= new ArrayList<PieData>();
+        al.add(pd);
+        al.add(pd2);
+        al.add(pd3);
+        al.add(pd4);
+        al.add(pd5);
+        al.add(pd6);
 
+        au.setData(al);
     }
 }
