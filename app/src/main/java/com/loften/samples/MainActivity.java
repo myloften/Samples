@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.loften.samples.CombinationImageView.CombinationImageActivity;
 import com.loften.samples.Component.CanvasActivity;
+import com.loften.samples.ConfigurationTest.ConfigurationActivity;
 import com.loften.samples.DivViewTest.Main2Activity;
 import com.loften.samples.OnTouchEventTest.OnTouchEventActivity;
 import com.loften.samples.RecyclerViewTest.RecyclerViewActivity;
@@ -56,5 +57,10 @@ public class MainActivity extends AppCompatActivity {
     //单指拖动，多指缩放
     public void onTouchEventTest(View v){
         startActivity(new Intent(this, OnTouchEventActivity.class));
+    }
+
+    //获取Configuration信息
+    public void configurationTest(View v){
+        startActivity(new Intent(this, ConfigurationActivity.class));
     }
 }

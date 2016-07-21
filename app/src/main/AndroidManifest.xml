@@ -28,7 +28,8 @@
         <activity android:name=".VerificationCode.VerificationActivity" />
         <activity android:name=".Callback.CallbackActivity" />
         <activity android:name=".HandlerTest.HandlerActivity" />
-        <activity android:name=".OnTouchEventTest.OnTouchEventActivity"></activity>
+        <activity android:name=".OnTouchEventTest.OnTouchEventActivity" />
+        <activity android:name=".ConfigurationTest.ConfigurationActivity"></activity>
     </application>
 
 </manifest>

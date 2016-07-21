@@ -9,73 +9,93 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.loften.samples.MainActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/myRecyclerView"
-        android:onClick="recyclerViewTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RecyclerView"
-        android:textAllCaps="false"
-        android:visibility="visible"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/myDivView"
-        android:layout_below="@id/myRecyclerView"
-        android:onClick="divViewTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DivView"
-        android:textAllCaps="false"
-        android:visibility="visible"/>
+            <Button
+                android:id="@+id/myRecyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="recyclerViewTest"
+                android:text="RecyclerView"
+                android:textAllCaps="false"
+                android:visibility="visible" />
 
-    <Button
-        android:id="@+id/myRetrofit"
-        android:layout_below="@id/myDivView"
-        android:onClick="myRetrofitTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Retrofit"
-        android:textAllCaps="false"
-        android:visibility="visible"/>
+            <Button
+                android:id="@+id/myDivView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myRecyclerView"
+                android:onClick="divViewTest"
+                android:text="DivView"
+                android:textAllCaps="false"
+                android:visibility="visible" />
 
-    <Button
-        android:id="@+id/myComponent"
-        android:layout_below="@id/myRetrofit"
-        android:onClick="myComponentTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Component"
-        android:textAllCaps="false"
-        android:visibility="visible"/>
+            <Button
+                android:id="@+id/myRetrofit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myDivView"
+                android:onClick="myRetrofitTest"
+                android:text="Retrofit"
+                android:textAllCaps="false"
+                android:visibility="visible" />
 
-    <Button
-        android:id="@+id/combinationImage"
-        android:layout_below="@id/myComponent"
-        android:onClick="combinationImageTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="combinationImage"
-        android:textAllCaps="false"
-        android:visibility="visible"/>
+            <Button
+                android:id="@+id/myComponent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myRetrofit"
+                android:onClick="myComponentTest"
+                android:text="Component"
+                android:textAllCaps="false"
+                android:visibility="visible" />
 
-    <Button
-        android:id="@+id/verificationCode"
-        android:layout_below="@id/combinationImage"
-        android:onClick="verificationCodeTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="verificationCode"
-        android:textAllCaps="false"
-        android:visibility="visible"/>
+            <Button
+                android:id="@+id/combinationImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myComponent"
+                android:onClick="combinationImageTest"
+                android:text="combinationImage"
+                android:textAllCaps="false"
+                android:visibility="visible" />
 
-    <Button
-        android:id="@+id/onTouchEventTest"
-        android:layout_below="@id/verificationCode"
-        android:onClick="onTouchEventTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="onTouchEventTest"
-        android:textAllCaps="false"
-        android:visibility="visible"/>
+            <Button
+                android:id="@+id/verificationCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/combinationImage"
+                android:onClick="verificationCodeTest"
+                android:text="verificationCode"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/onTouchEventTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/verificationCode"
+                android:onClick="onTouchEventTest"
+                android:text="onTouchEventTest"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/configurationTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/onTouchEventTest"
+                android:onClick="configurationTest"
+                android:text="configurationTest"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+    </ScrollView>
 </RelativeLayout>
