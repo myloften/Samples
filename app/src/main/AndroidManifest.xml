@@ -27,7 +27,8 @@
         <activity android:name=".CombinationImageView.CombinationImageActivity" />
         <activity android:name=".VerificationCode.VerificationActivity" />
         <activity android:name=".Callback.CallbackActivity" />
-        <activity android:name=".HandlerTest.HandlerActivity"></activity>
+        <activity android:name=".HandlerTest.HandlerActivity" />
+        <activity android:name=".OnTouchEventTest.OnTouchEventActivity"></activity>
     </application>
 
 </manifest>

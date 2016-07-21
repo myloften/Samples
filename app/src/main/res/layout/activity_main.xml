@@ -68,4 +68,14 @@
         android:text="verificationCode"
         android:textAllCaps="false"
         android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/onTouchEventTest"
+        android:layout_below="@id/verificationCode"
+        android:onClick="onTouchEventTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onTouchEventTest"
+        android:textAllCaps="false"
+        android:visibility="visible"/>
 </RelativeLayout>

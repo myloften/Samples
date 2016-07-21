@@ -8,6 +8,7 @@ import android.view.View;
 import com.loften.samples.CombinationImageView.CombinationImageActivity;
 import com.loften.samples.Component.CanvasActivity;
 import com.loften.samples.DivViewTest.Main2Activity;
+import com.loften.samples.OnTouchEventTest.OnTouchEventActivity;
 import com.loften.samples.RecyclerViewTest.RecyclerViewActivity;
 import com.loften.samples.RetrofitTest.RetrofitActivity;
 import com.loften.samples.VerificationCode.VerificationActivity;
@@ -50,5 +51,10 @@ public class MainActivity extends AppCompatActivity {
     //验证码
     public void verificationCodeTest(View v){
         startActivity(new Intent(this, VerificationActivity.class));
+    }
+
+    //单指拖动，双指缩放
+    public void onTouchEventTest(View v){
+        startActivity(new Intent(this, OnTouchEventActivity.class));
     }
 }
