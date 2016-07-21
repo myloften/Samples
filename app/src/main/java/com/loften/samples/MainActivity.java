@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, VerificationActivity.class));
     }
 
-    //单指拖动，双指缩放
+    //单指拖动，多指缩放
     public void onTouchEventTest(View v){
         startActivity(new Intent(this, OnTouchEventActivity.class));
     }
