@@ -13,6 +13,7 @@ import com.loften.samples.OnTouchEventTest.GestureListenerActivity;
 import com.loften.samples.OnTouchEventTest.OnTouchEventActivity;
 import com.loften.samples.RecyclerViewTest.RecyclerViewActivity;
 import com.loften.samples.RetrofitTest.RetrofitActivity;
+import com.loften.samples.ScrollerTest.ScrollerTestActivity;
 import com.loften.samples.VerificationCode.VerificationActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -68,5 +69,10 @@ public class MainActivity extends AppCompatActivity {
     //手势
     public void gestureListenerTest(View v){
         startActivity(new Intent(this, GestureListenerActivity.class));
+    }
+
+    //scroller的用法
+    public void scrollerTest(View v){
+        startActivity(new Intent(this, ScrollerTestActivity.class));
     }
 }

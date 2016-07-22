@@ -30,7 +30,8 @@
         <activity android:name=".HandlerTest.HandlerActivity" />
         <activity android:name=".OnTouchEventTest.OnTouchEventActivity" />
         <activity android:name=".ConfigurationTest.ConfigurationActivity" />
-        <activity android:name=".OnTouchEventTest.GestureListenerActivity"></activity>
+        <activity android:name=".OnTouchEventTest.GestureListenerActivity" />
+        <activity android:name=".ScrollerTest.ScrollerTestActivity"></activity>
     </application>
 
 </manifest>
