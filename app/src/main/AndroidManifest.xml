@@ -29,7 +29,8 @@
         <activity android:name=".Callback.CallbackActivity" />
         <activity android:name=".HandlerTest.HandlerActivity" />
         <activity android:name=".OnTouchEventTest.OnTouchEventActivity" />
-        <activity android:name=".ConfigurationTest.ConfigurationActivity"></activity>
+        <activity android:name=".ConfigurationTest.ConfigurationActivity" />
+        <activity android:name=".OnTouchEventTest.GestureListenerActivity"></activity>
     </application>
 
 </manifest>

@@ -9,6 +9,7 @@ import com.loften.samples.CombinationImageView.CombinationImageActivity;
 import com.loften.samples.Component.CanvasActivity;
 import com.loften.samples.ConfigurationTest.ConfigurationActivity;
 import com.loften.samples.DivViewTest.Main2Activity;
+import com.loften.samples.OnTouchEventTest.GestureListenerActivity;
 import com.loften.samples.OnTouchEventTest.OnTouchEventActivity;
 import com.loften.samples.RecyclerViewTest.RecyclerViewActivity;
 import com.loften.samples.RetrofitTest.RetrofitActivity;
@@ -62,5 +63,10 @@ public class MainActivity extends AppCompatActivity {
     //获取Configuration信息
     public void configurationTest(View v){
         startActivity(new Intent(this, ConfigurationActivity.class));
+    }
+
+    //手势
+    public void gestureListenerTest(View v){
+        startActivity(new Intent(this, GestureListenerActivity.class));
     }
 }

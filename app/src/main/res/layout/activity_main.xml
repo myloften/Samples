@@ -95,6 +95,17 @@
                 android:text="configurationTest"
                 android:textAllCaps="false"
                 android:visibility="visible" />
+
+            <Button
+                android:id="@+id/gestureListenerTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/configurationTest"
+                android:onClick="gestureListenerTest"
+                android:text="gestureListenerTest"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
         </RelativeLayout>
 
     </ScrollView>
