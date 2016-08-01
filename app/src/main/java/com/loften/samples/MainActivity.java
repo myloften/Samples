@@ -9,11 +9,13 @@ import com.loften.samples.CombinationImageView.CombinationImageActivity;
 import com.loften.samples.Component.CanvasActivity;
 import com.loften.samples.ConfigurationTest.ConfigurationActivity;
 import com.loften.samples.DivViewTest.Main2Activity;
+import com.loften.samples.LoopViewPager.LoopViewPagerActivity;
 import com.loften.samples.OnTouchEventTest.GestureListenerActivity;
 import com.loften.samples.OnTouchEventTest.OnTouchEventActivity;
 import com.loften.samples.RecyclerViewTest.RecyclerViewActivity;
 import com.loften.samples.RetrofitTest.RetrofitActivity;
 import com.loften.samples.ScrollerTest.ScrollerTestActivity;
+import com.loften.samples.SwipeToLoadLayout.SwipeToLoadLayoutActivity;
 import com.loften.samples.VerificationCode.VerificationActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -74,5 +76,15 @@ public class MainActivity extends AppCompatActivity {
     //scroller的用法
     public void scrollerTest(View v){
         startActivity(new Intent(this, ScrollerTestActivity.class));
+    }
+
+    //swipeToLayout刷新加载框架使用
+    public void swipeToLoadLayoutTest(View v){
+        startActivity(new Intent(this, SwipeToLoadLayoutActivity.class));
+    }
+
+    //LoopViewPager广告栏的应用
+    public void loopViewPagerTest(View v){
+        startActivity(new Intent(this, LoopViewPagerActivity.class));
     }
 }

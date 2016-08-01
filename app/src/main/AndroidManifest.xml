@@ -31,7 +31,9 @@
         <activity android:name=".OnTouchEventTest.OnTouchEventActivity" />
         <activity android:name=".ConfigurationTest.ConfigurationActivity" />
         <activity android:name=".OnTouchEventTest.GestureListenerActivity" />
-        <activity android:name=".ScrollerTest.ScrollerTestActivity"></activity>
+        <activity android:name=".ScrollerTest.ScrollerTestActivity" />
+        <activity android:name=".SwipeToLoadLayout.SwipeToLoadLayoutActivity" />
+        <activity android:name=".LoopViewPager.LoopViewPagerActivity"></activity>
     </application>
 
 </manifest>

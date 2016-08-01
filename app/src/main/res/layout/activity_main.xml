@@ -116,6 +116,26 @@
                 android:textAllCaps="false"
                 android:visibility="visible" />
 
+            <Button
+                android:id="@+id/SwipeToLoadLayoutTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scrollerTest"
+                android:onClick="swipeToLoadLayoutTest"
+                android:text="SwipeToLoadLayoutTest"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/LoopViewPagerTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/SwipeToLoadLayoutTest"
+                android:onClick="loopViewPagerTest"
+                android:text="LoopViewPagerTest"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
         </RelativeLayout>
 
     </ScrollView>
